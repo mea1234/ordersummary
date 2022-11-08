@@ -1,0 +1,128 @@
+body {
+  background-color: #e0e8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.background {
+  position: absolute;
+  align-self: flex-start;
+  width: 100%;
+}
+#bgdesktop {
+  display: none;
+}
+#box1 {
+  width: 80%;
+  max-width: 450px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: "Red Hat Display";
+  order: 99;
+  position: relative;
+  margin: 13% 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#hero {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+h1 {
+  color: #1f2e55;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 2px 0 #1f2e55;
+  letter-spacing: 2px;
+  margin-top: 10%;
+}
+.text {
+  color: #717fa6;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+#desc {
+  width: 70%;
+  margin: 0 auto;
+}
+#description {
+  margin-bottom: 0;
+  text-shadow: 0.5px 0 #717fa6;
+}
+#childbox2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f9ff;
+  margin: 6% 10%;
+  padding: 4%;
+  border-radius: 15px;
+  width: 80%;
+}
+#price {
+  margin: 2%;
+  color: #717fa6;
+  text-shadow: 0.7px 0 #717fa6;
+}
+b {
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 1rem;
+  text-shadow: 1px 0 #1f2e55;
+  letter-spacing: 1px;
+}
+#childbox3 {
+  margin-right: 15%;
+}
+#change {
+  color: #382ae1;
+  font-weight: 700;
+  text-shadow: 0.5px 0 #382ae1;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #382ae1;
+  margin-bottom: -20px;
+  cursor: pointer;
+}
+#payment {
+  background-color: #382ae1;
+  width: 100%;
+  display: block;
+  margin: 0 10%;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+h3 {
+  color: white;
+  text-align: center;
+  padding: 0 5%;
+  font-size: 0.96rem;
+  letter-spacing: 1px;
+  margin: 4%;
+}
+#cancel {
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-shadow: 1px 0 #717fa6;
+  text-align: center;
+  padding-bottom: 6%;
+  letter-spacing: 0.9px;
+  display: block;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  cursor: pointer;
+}
+@media screen and (min-width: 1140px) {
+  #bgmobile {
+    display: none;
+  }
+  #bgdesktop {
+    display: block;
+  }
+}
